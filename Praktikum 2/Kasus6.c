@@ -27,7 +27,7 @@ int main()
 
     switch(opsi){
         case 'a':
-            printf("iA + iB = %d", iA + iB);
+            printf("%d + %d = %d", iA, iB, iA + iB);
             break;
         case 'b':
             printf("%d - %d = %d", iA, iB, iA - iB);
