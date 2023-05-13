@@ -3,14 +3,14 @@
 
 void bubbleSort(int arr[], int n) {
 
-  //kamus lokal
 
-  int i,j;
+  //KAMUS LOKAL
+  int i;
+  int j;
   int temp;
   bool tukar;
 
-  //algoritma
-
+  //ALGORITMA
   tukar = true;
   i=0;
   while (i < n  && tukar) {
